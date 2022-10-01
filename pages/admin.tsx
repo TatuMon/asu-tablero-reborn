@@ -3,22 +3,22 @@ import Layout from '../components/Layout'
 import Image from 'next/image'
 import styles from '../styles/Scoreboard.module.css'
 
-const Scoreboard: NextPage = () => {   
+const AdminScoreboard: NextPage = () => {   
   return (
-    <Layout title="ASU 2022 | Tablero">
+    <Layout title="ASU 2022 | Admin">
       <div id="tablero">
         <div className="local-column">
-			    <h1>Hola</h1>
-		    </div>
+			<h1>Hola admin!</h1>
+		</div>
 
         <div className="neutral-column">
-		    </div>
+		</div>
 
         <div className="visit-column">
-		    </div>
+		</div>
       </div>
 	</Layout>
   )
 }
 
-export default Scoreboard;
+export default AdminScoreboard;

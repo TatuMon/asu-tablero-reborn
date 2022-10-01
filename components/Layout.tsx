@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import {FC, PropsWithChildren, ReactNode} from 'react';
+import {FC, PropsWithChildren} from 'react';
+import {BsMoon} from 'react-icons/bs' 
 
 type LayoutData = PropsWithChildren & {
 	title?: string
@@ -13,7 +14,8 @@ const Layout: FC<LayoutData> = ({children, title}: LayoutData) => {
 	  </Head>
 
 	  <main className="bg-cover bg-light-pattern dark:bg-dark-pattern">	
-        {children}
+        <div><BsMoon /></div>
+		{children}
 	  </main>
 	</>
   )
