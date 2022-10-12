@@ -8,16 +8,16 @@ const AdminScoreboard: NextPage = () => {
     <Layout title="ASU 2022 | Admin">
       <div id="tablero">
         <div className="local-column">
-			<h1>Hola admin!</h1>
-		</div>
+          <h1>Hola admin!</h1>
+        </div>
 
         <div className="neutral-column">
-		</div>
+		    </div>
 
         <div className="visit-column">
-		</div>
+        </div>
       </div>
-	</Layout>
+	  </Layout>
   )
 }
 

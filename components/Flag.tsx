@@ -14,7 +14,7 @@ const Flag: FC<FlagData> = ({lov}: FlagData) => {
 
 	return (
 		<div className={`${lov}-flag w-96`}>
-			<Image src={`/img/teams/${teamName}.png`} width="500px" height="500px"></Image>
+			<Image src={`/img/teams/${teamName}.png`} width="500px" height="500px" alt={`${lov} team flag`}></Image>
 		</div>
 	)
 }

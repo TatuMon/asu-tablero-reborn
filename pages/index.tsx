@@ -9,10 +9,10 @@ const Scoreboard: NextPage = () => {
   return (
     <Layout title="ASU 2022 | Tablero">
       <div id="tablero">
-		<FlagLevel />
-		<LowerLevel />	
+        <FlagLevel />
+        <LowerLevel />	
       </div>
-	</Layout>
+	  </Layout>
   )
 }
 
